@@ -453,8 +453,8 @@ body {
 }
 
 // RESPONSIVE
-@media(max-width: 1050px){
-  .body__wrapper{
+@media (max-width: 1050px) {
+  .body__wrapper {
     background-position-y: 0;
   }
 }
@@ -510,7 +510,7 @@ body {
   }
   .body__wrapper {
     .header {
-      .header-logo{
+      .header-logo {
         width: 60%;
       }
       h1 {
@@ -576,11 +576,10 @@ body {
     }
   }
   .body__wrapper {
-    
     .header {
       height: 450px;
 
-      .header-logo{
+      .header-logo {
         width: 70%;
       }
       h1 {
@@ -639,14 +638,14 @@ body {
       .header-content {
         top: 80%;
         h3 {
-          font-size: 16px;
+          font-size: 18px;
           width: 100%;
           white-space: nowrap;
           margin: 10px 0;
         }
         button {
-          font-size: 12px;
-          padding: 7px 18px;
+          font-size: 14px;
+          padding: 10px 18px;
           margin: 0;
         }
       }

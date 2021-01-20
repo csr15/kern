@@ -608,14 +608,14 @@ body {
     top: 80%;
   }
   .body__wrapper .header .header-content h3 {
-    font-size: 16px;
+    font-size: 18px;
     width: 100%;
     white-space: nowrap;
     margin: 10px 0;
   }
   .body__wrapper .header .header-content button {
-    font-size: 12px;
-    padding: 7px 18px;
+    font-size: 14px;
+    padding: 10px 18px;
     margin: 0;
   }
   .body__wrapper .watch {
