@@ -12,7 +12,7 @@ const closeNavbar = () => {
 const t1 = gsap.timeline({
   scrollTrigger: {
     trigger: ".watch",
-    start: "bottom",
+    start: "center",
   },
 });
 
@@ -30,7 +30,7 @@ t2.from("#learn-img", { delay: 0.5, x: -300, opacity: 0 });
 const t3 = gsap.timeline({
   scrollTrigger: {
     trigger: "#learn-img",
-    start: "top",
+    start: "center",
   },
 });
 

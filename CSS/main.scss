@@ -1,3 +1,9 @@
+/*
+  Version: 1.0.1
+  Website: Kern Website
+  Author: ***
+*/
+
 // FONTS
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
 $mon: "Montserrat", sans-serif;
@@ -305,6 +311,10 @@ body {
   box-sizing: content-box;
   font-family: $mon;
 
+  a{
+    text-decoration: none;
+  }
+
   .top h6 {
     text-align: left;
     font-size: 16px;
@@ -315,13 +325,14 @@ body {
     opacity: 1;
     border-bottom: #fff 1px solid;
     padding: 5px 0px;
+    text-decoration: none;
 
     span {
       font-weight: 700;
       text-transform: uppercase;
     }
   }
-  .bottom h6 {
+  .bottom  h6 {
     text-align: left;
     font-size: 16px;
     line-height: 16px;
@@ -329,6 +340,7 @@ body {
     letter-spacing: 0;
     color: #ffffff;
     padding-top: 1px;
+    text-decoration: none;
   }
 }
 
@@ -373,6 +385,7 @@ body {
         text-transform: capitalize;
         margin-bottom: 10px;
         font-family: $mon;
+        font-size: 16px;
       }
 
       ul {
@@ -381,12 +394,17 @@ body {
         padding: 0;
 
         li {
-          margin: 10px 0;
+          margin: 3px 0;
           a {
             font-family: $mon;
             color: #d4d5d7;
             font-size: 14px;
             text-decoration: none;
+            border-bottom: 1px solid transparent;
+
+            &:hover {
+              border-bottom-color: #d4d5d7;
+            }
           }
         }
       }
@@ -400,6 +418,7 @@ body {
         text-transform: capitalize;
         margin-bottom: 10px;
         font-family: $mon;
+        font-size: 16px;
       }
 
       a {
@@ -421,7 +440,7 @@ body {
     padding: 0;
 
     .form-group {
-      margin: 10px 0;
+      margin: 5px 0;
     }
 
     h5 {
@@ -441,6 +460,8 @@ body {
     input {
       border: none;
       cursor: auto;
+      padding: 3px 2px;
+      height: auto;
 
       &:hover {
         transform: scale(1.005);

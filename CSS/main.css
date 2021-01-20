@@ -1,3 +1,8 @@
+/*
+  Version: 1.0.1
+  Website: Kern Website
+  Author: ***
+*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
 a {
   text-decoration: none;
@@ -311,6 +316,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.sticky-contact a {
+  text-decoration: none;
+}
+
 .sticky-contact .top h6 {
   text-align: left;
   font-size: 16px;
@@ -321,6 +330,7 @@ body {
   opacity: 1;
   border-bottom: #fff 1px solid;
   padding: 5px 0px;
+  text-decoration: none;
 }
 
 .sticky-contact .top h6 span {
@@ -336,6 +346,7 @@ body {
   letter-spacing: 0;
   color: #ffffff;
   padding-top: 1px;
+  text-decoration: none;
 }
 
 .footer {
@@ -382,6 +393,7 @@ body {
   text-transform: capitalize;
   margin-bottom: 10px;
   font-family: "Montserrat", sans-serif;
+  font-size: 16px;
 }
 
 .footer .footer-contact .more ul {
@@ -391,7 +403,7 @@ body {
 }
 
 .footer .footer-contact .more ul li {
-  margin: 10px 0;
+  margin: 3px 0;
 }
 
 .footer .footer-contact .more ul li a {
@@ -399,6 +411,11 @@ body {
   color: #d4d5d7;
   font-size: 14px;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.footer .footer-contact .more ul li a:hover {
+  border-bottom-color: #d4d5d7;
 }
 
 .footer .footer-contact .contact {
@@ -410,6 +427,7 @@ body {
   text-transform: capitalize;
   margin-bottom: 10px;
   font-family: "Montserrat", sans-serif;
+  font-size: 16px;
 }
 
 .footer .footer-contact .contact a {
@@ -430,7 +448,7 @@ body {
 }
 
 .footer .footer-form .form-group {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 .footer .footer-form h5 {
@@ -450,6 +468,8 @@ body {
 .footer .footer-form input {
   border: none;
   cursor: auto;
+  padding: 3px 2px;
+  height: auto;
 }
 
 .footer .footer-form input:hover {
