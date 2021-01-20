@@ -13,7 +13,7 @@ body {
 }
 
 .navbar .navbar-brand img {
-  width: 270px;
+  width: 300px;
 }
 
 .navbar .spacer {
@@ -496,7 +496,7 @@ body {
     height: 30px;
   }
   .navbar .navbar-brand img {
-    width: 230px;
+    width: 250px;
   }
   .navbar .navbar-items img {
     width: 70%;
@@ -538,7 +538,7 @@ body {
     width: 17px;
   }
   .navbar .navbar-brand img {
-    width: 170px;
+    width: 200px;
   }
   .navbar .navbar-items i {
     margin: 20px 0;
@@ -583,11 +583,8 @@ body {
     margin: auto 10px;
     height: 20px;
   }
-  .navbar .navbar-toggler img {
-    width: 13px;
-  }
   .navbar .navbar-brand img {
-    width: 130px;
+    width: 180px;
   }
   .body__wrapper .header h1 {
     font-size: 28px;
