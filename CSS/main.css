@@ -561,6 +561,11 @@ body {
   .body__wrapper .watch-section #watch-img {
     margin: 0px;
   }
+  .body__wrapper .explore-section #learn-img,
+  .body__wrapper .learn-section #learn-img,
+  .body__wrapper .watch-section #learn-img {
+    margin: 0px;
+  }
   .sticky-contact {
     display: none;
   }
