@@ -256,6 +256,7 @@ body {
         font-size: 18px;
         width: 90%;
         margin: 20px 0 10px 0;
+        font-family: $mon;
 
         span {
           font-weight: 700;
@@ -539,6 +540,33 @@ body {
         margin: 15px auto;
       }
     }
+    .explore-section,
+    .learn-section,
+    .watch-section {
+      margin: 60px auto;
+
+      &:first-child {
+        margin-top: 30px;
+      }
+
+      .content {
+        h1 {
+          font-size: 50px;
+          padding-bottom: 7px;
+          width: 20%;
+        }
+        p{
+          width: 100%;
+        }
+      }
+      .img img {
+        width: 70%;
+        margin: 20px auto;
+      }
+      #watch-img{
+        margin: 0px;
+      }
+    }
   }
   .sticky-contact {
     display: none;
@@ -609,6 +637,17 @@ body {
         margin: 10px auto;
       }
     }
+
+    .explore-section,
+    .watch-section,
+    .learn-section {
+      .content {
+        h1 {
+          font-size: 45px;
+          width: 30%;
+        }
+      }
+    }
   }
 }
 
@@ -657,6 +696,10 @@ body {
       h1 {
         font-size: 32px;
       }
+    }
+
+    .explore-section, .learn-section, .watch-section{
+      margin: 40px auto;
     }
   }
 }

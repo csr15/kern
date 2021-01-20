@@ -250,6 +250,7 @@ body {
   font-size: 18px;
   width: 90%;
   margin: 20px 0 10px 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 .body__wrapper .watch-section .content p span,
@@ -527,6 +528,39 @@ body {
   .body__wrapper .watch .video-section {
     margin: 15px auto;
   }
+  .body__wrapper .explore-section,
+  .body__wrapper .learn-section,
+  .body__wrapper .watch-section {
+    margin: 60px auto;
+  }
+  .body__wrapper .explore-section:first-child,
+  .body__wrapper .learn-section:first-child,
+  .body__wrapper .watch-section:first-child {
+    margin-top: 30px;
+  }
+  .body__wrapper .explore-section .content h1,
+  .body__wrapper .learn-section .content h1,
+  .body__wrapper .watch-section .content h1 {
+    font-size: 50px;
+    padding-bottom: 7px;
+    width: 20%;
+  }
+  .body__wrapper .explore-section .content p,
+  .body__wrapper .learn-section .content p,
+  .body__wrapper .watch-section .content p {
+    width: 100%;
+  }
+  .body__wrapper .explore-section .img img,
+  .body__wrapper .learn-section .img img,
+  .body__wrapper .watch-section .img img {
+    width: 70%;
+    margin: 20px auto;
+  }
+  .body__wrapper .explore-section #watch-img,
+  .body__wrapper .learn-section #watch-img,
+  .body__wrapper .watch-section #watch-img {
+    margin: 0px;
+  }
   .sticky-contact {
     display: none;
   }
@@ -582,6 +616,12 @@ body {
   .body__wrapper .watch .video-section {
     margin: 10px auto;
   }
+  .body__wrapper .explore-section .content h1,
+  .body__wrapper .watch-section .content h1,
+  .body__wrapper .learn-section .content h1 {
+    font-size: 45px;
+    width: 30%;
+  }
 }
 
 @media (max-width: 400px) {
@@ -623,6 +663,9 @@ body {
   }
   .body__wrapper .watch h1 {
     font-size: 32px;
+  }
+  .body__wrapper .explore-section, .body__wrapper .learn-section, .body__wrapper .watch-section {
+    margin: 40px auto;
   }
 }
 /*# sourceMappingURL=main.css.map */
