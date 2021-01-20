@@ -9,8 +9,8 @@
     <title>Kern Website</title>
 
     <!-- ==BOOTSTRAP4 CDN== -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- ==BOX ICONS CDN== -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
@@ -24,27 +24,24 @@
     <!-- ==NAVBAR== -->
     <nav class="navbar">
         <div class="container justify-content-start">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <button class="navbar-toggler" type="button" data-toggle="collapse" onclick="openNavbar()"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <img src="./assets/navbar-toggler.svg" alt="Kern website">
             </button>
             <div class="spacer"></div>
             <a class="navbar-brand" href="#"><img src="./assets/navbar-logo.svg" alt="Kern website"></a>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav text-left">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                </ul>
+            <div class="navbar-items">
+                <div class="container">
+                    <i class='bx bxs-x-circle bx-md' onclick="closeNavbar()"></i>
+                    <ul>
+                        <li><a href="#">Explore</a></li>
+                        <li><a href="#">Find a school</a></li>
+                        <li><a href="#">Programs</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Get news</a></li>
+                    </ul>
+                    <img src="./assets/navbar-collapse-logo.svg" alt="Kern Website" class="img-responsive">
+                </div>
             </div>
         </div>
     </nav>
@@ -68,7 +65,7 @@
 
         <!-- ==WATCH== -->
         <div class="watch">
-            <div class="container py-5">
+            <div class="container">
                 <h1 class="text-center">Watch</h1>
 
                 <div class="watch-videos">
@@ -204,6 +201,15 @@
         </div>
     </div>
 
+    <div class="sticky-contact">
+        <div class="top">
+            <h6>Contact Us <span>Today</span> </h6>
+        </div>
+        <div class="bottom">
+            <h6>Click Here</h6>
+        </div>
+    </div>
+
     <!-- ==FOOTER== -->
     <div class="footer">
         <div class="container">
@@ -230,8 +236,10 @@
                     </div>
                     <div class="contact">
                         <h5>Contact Us</h5>
-                        <a href="tel:1-800-132-0000" class="d-block"><i class='bx bxs-phone-call'></i> 1-800-132-0000</a>
-                        <a href="mailto:hello@finditbeit.com" class="d-block"><i class='bx bxs-envelope'></i>hello@finditbeit.com</a>
+                        <a href="tel:1-800-132-0000" class="d-block"><i class='bx bxs-phone-call'></i>
+                            1-800-132-0000</a>
+                        <a href="mailto:hello@finditbeit.com" class="d-block"><i
+                                class='bx bxs-envelope'></i>hello@finditbeit.com</a>
                     </div>
                 </div>
 
@@ -272,9 +280,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <!-- ==CUSTOM SCRIPTS== -->
+    <script src="./scripts/index.js"></script>
+
 </body>
 
 </html>

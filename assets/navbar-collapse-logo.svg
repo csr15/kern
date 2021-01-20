@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="273.361" height="47" viewBox="0 0 273.361 47">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.977" x2="0.5" y2="0.357" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#289238"/>
+      <stop offset="1" stop-color="#8abb2a"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_4467" data-name="Group 4467" transform="translate(-466 -773)">
+    <g id="Career_Education_logo" data-name="Career Education_logo" transform="translate(1423.882 -669.878)">
+      <text id="Career_Education" data-name="Career Education" transform="translate(-901.441 1468.939)" fill="#009cdc" font-size="16" font-family="SegoeUI, Segoe UI" letter-spacing="-0.03em"><tspan x="0" y="0">Career Education</tspan></text>
+      <text id="BUILD_YOUR_FUTURE" data-name="BUILD YOUR FUTURE" transform="translate(-899.638 1479.124)" fill="#d03838" font-size="8.5" font-family="ArialMT, Arial" letter-spacing="0.24em"><tspan x="0" y="0">BUILD YOUR FUTURE</tspan></text>
+    </g>
+    <g id="Kern_County_logo" data-name="Kern County_logo" transform="translate(655 782.002)">
+      <text id="prefix__COUNTY" transform="translate(0 30.941)" fill="#145629" font-size="8" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" letter-spacing="1.3em"><tspan x="0" y="0">COUNTY</tspan></text>
+      <path id="Path_1762" data-name="Path 1762" d="M-892.074,1473.59h5.6v9.87h.059l6.2-9.87h5.869l-7.262,10.937,7.736,11h-6.55l-5.987-9.485h-.059v9.485h-5.6Z" transform="translate(892.889 -1473.592)" fill="url(#linear-gradient)"/>
+      <path id="Path_1763" data-name="Path 1763" d="M-825.475,1473.59h12.182v4.92h-6.817v3.409h6.61v4.919h-6.61v3.765h6.817v4.92h-12.182Z" transform="translate(850.071 -1473.592)" fill="url(#linear-gradient)"/>
+      <path id="Path_1764" data-name="Path 1764" d="M-769.867,1473.59h6.936c3.853,0,5.335.474,6.758,1.572a7.6,7.6,0,0,1,2.7,5.986c0,2.52-1.3,6.225-5.454,6.906l5.958,7.469h-6.4l-5.068-7.083h-.059v7.083h-5.365Zm5.365,11.026h1.986c3.29,0,3.675-2.075,3.675-3.142,0-1.987-1.452-2.964-3.616-2.964H-764.5Z" transform="translate(814.319 -1473.592)" fill="url(#linear-gradient)"/>
+      <path id="Path_1765" data-name="Path 1765" d="M-709.9,1473.59h4.831l8.477,13.783.059-.06-.237-13.723h5.365v21.933h-4.861l-8.358-13.338-.059.029.148,13.309H-709.9Z" transform="translate(775.766 -1473.592)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="LogoWhiteBackground" transform="translate(-5151 405)">
+      <g id="Group_22" data-name="Group 22" transform="translate(5617 368)">
+        <g id="Group_4389" data-name="Group 4389" transform="translate(0)">
+          <g id="Ellipse_1" data-name="Ellipse 1" fill="#fff" stroke="#707070" stroke-width="1">
+            <circle cx="23.5" cy="23.5" r="23.5" stroke="none"/>
+            <circle cx="23.5" cy="23.5" r="23" fill="none"/>
+          </g>
+          <g id="FindItBeit_SymbolOnly" transform="translate(0.359 0.359)">
+            <path id="Path_66" data-name="Path 66" d="M97.06,66.465l-1.53.3,1.347,6.766,1.53-.3a1.86,1.86,0,0,0,1.389-.944c.286-.54.2-1.3-.117-2.87s-.5-2.219-.973-2.611A1.858,1.858,0,0,0,97.06,66.465Z" transform="translate(-73.658 -51.204)" fill="#db5049"/>
+            <path id="Path_67" data-name="Path 67" d="M72.582,145.179l2.114-.419a1.256,1.256,0,0,0,1.1-1.553,1.24,1.24,0,0,0-1.6-1l-2.114.419Z" transform="translate(-55.578 -109.619)" fill="#db5049"/>
+            <path id="Path_68" data-name="Path 68" d="M72.011,124.846a1.2,1.2,0,0,0-1.578-.93l-1.983.4.474,2.391,1.983-.4A1.212,1.212,0,0,0,72.011,124.846Z" transform="translate(-52.779 -95.516)" fill="#db5049"/>
+            <path id="Path_65" data-name="Path 65" d="M37.392,12.527l4,20.106-2.027.4-4-20.106-2.711.538-.36-1.807,9.816-1.954A23.225,23.225,0,0,0,18.715.49a22.827,22.827,0,0,0-2.978.8l4.688,23.528-1.809.36-3.283-3.386L14.6,18.1l3,3.092L13.789,2.045A23.248,23.248,0,0,0,2.613,33.927l11.522-2.289L13.3,27.432l4.166-.834c2.025-.4,3.435.5,3.786,2.289a2.446,2.446,0,0,1-.852,2.391A2.461,2.461,0,0,1,22.3,33.326a2.925,2.925,0,0,1-2.583,3.621l-4.349.873L14.5,33.468,3.588,35.64a23.239,23.239,0,0,0,31.8,7.432L29.259,12.264l2.027-.4,5.955,29.931A23.241,23.241,0,0,0,43.2,11.371ZM10.473,17.882l-4.81.957.508,2.551,4.095-.815.36,1.807-4.1.815.838,4.214-2.027.4L3.277,17.438l6.836-1.374Zm4.621,7.993-2.02.4L11.013,15.9l2.027-.4ZM12.82,14.447l-2.036.4-.4-2.027,2.027-.4ZM29.005,26.188l-4.81.957.481,2.43,4.1-.815.36,1.807-4.1.815.5,2.519,4.81-.955.36,1.807-6.838,1.361L21.812,25.733l6.836-1.354ZM27.86,22.3a3.844,3.844,0,0,1-2.542,1.537l-3.747.746L19.51,14.2l3.747-.744a3.86,3.86,0,0,1,2.938.444c1.4.934,1.567,2.386,1.876,3.946s.731,3.061-.2,4.459Zm3.206-11.486-2.027.4-.392-2.02,2.027-.4Z" transform="translate(-0.026 -0.041)" fill="#db5049"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
