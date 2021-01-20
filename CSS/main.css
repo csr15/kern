@@ -553,10 +553,10 @@ body {
     width: 80%;
   }
   .body__wrapper .header {
-    height: 350px;
+    height: 450px;
   }
   .body__wrapper .header .header-logo {
-    width: 75%;
+    width: 70%;
   }
   .body__wrapper .header h1 {
     font-size: 40px;
@@ -566,7 +566,7 @@ body {
     display: none;
   }
   .body__wrapper .header .header-content {
-    top: 80%;
+    top: 83%;
   }
   .body__wrapper .header .header-content h3 {
     font-size: 30px;
@@ -592,9 +592,12 @@ body {
   .navbar .navbar-brand img {
     width: 180px;
   }
+  .body__wrapper .header {
+    height: 350px;
+  }
   .body__wrapper .header h1 {
-    font-size: 28px;
-    line-height: 27px;
+    font-size: 32px;
+    line-height: 32px;
     margin-top: 7px;
   }
   .body__wrapper .header .header-peoples {
