@@ -353,8 +353,17 @@ body {
   width: 100%;
 }
 
-.footer .footer-logo .social-icons i {
-  margin: 20px 0;
+.footer .footer-logo .social-icons a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer .footer-logo .social-icons a i {
+  margin: 20px 10px;
+}
+
+.footer .footer-logo .social-icons a i:first-child {
+  margin-left: 0px;
 }
 
 .footer .footer-logo p {
@@ -383,9 +392,13 @@ body {
 
 .footer .footer-contact .more ul li {
   margin: 10px 0;
+}
+
+.footer .footer-contact .more ul li a {
   font-family: "Montserrat", sans-serif;
   color: #d4d5d7;
   font-size: 14px;
+  text-decoration: none;
 }
 
 .footer .footer-contact .contact {
@@ -577,9 +590,11 @@ body {
     display: none;
   }
   .footer {
-    padding: 20px 15px;
+    padding: 20px 10px;
   }
-  .footer .footer-contact, .footer .footer-form, .footer .footer-logo {
+  .footer .footer-contact,
+  .footer .footer-form,
+  .footer .footer-logo {
     margin: 5px auto;
     padding: 0;
   }
@@ -683,7 +698,9 @@ body {
   .body__wrapper .watch h1 {
     font-size: 32px;
   }
-  .body__wrapper .explore-section, .body__wrapper .learn-section, .body__wrapper .watch-section {
+  .body__wrapper .explore-section,
+  .body__wrapper .learn-section,
+  .body__wrapper .watch-section {
     margin: 40px auto;
   }
 }

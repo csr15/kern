@@ -11,8 +11,8 @@ const closeNavbar = () => {
 
 const t1 = gsap.timeline({
   scrollTrigger: {
-    trigger: ".header",
-    start: "top",
+    trigger: ".watch",
+    start: "bottom",
   },
 });
 
