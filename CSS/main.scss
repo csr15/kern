@@ -110,7 +110,7 @@ body {
 
     img {
       margin-top: 40px;
-      width: 40%;
+      width: 50%;
     }
   }
 }
@@ -340,6 +340,7 @@ body {
   color: $white;
 
   .footer-logo {
+    padding: 0px;
     img {
       width: 100%;
     }
@@ -357,7 +358,7 @@ body {
   }
 
   .footer-contact {
-    padding-left: 10px;
+    padding: 0 20px;
     .more {
       h5 {
         font-weight: 700;
@@ -396,6 +397,10 @@ body {
         font-family: $mon;
         margin: 10px 0;
         font-size: 14px;
+
+        i{
+          margin-right: 5px;
+        }
       }
     }
   }
@@ -406,7 +411,6 @@ body {
 
     .form-group {
       margin: 10px 0;
-      padding: 0 10px;
     }
 
     h5 {
@@ -505,7 +509,7 @@ body {
 
     .navbar-items {
       img {
-        width: 70%;
+        width: 80%;
       }
     }
   }
@@ -574,6 +578,14 @@ body {
   .sticky-contact {
     display: none;
   }
+  .footer{
+    padding: 20px 15px;
+
+    .footer-contact, .footer-form, .footer-logo{
+      margin: 5px auto;
+      padding: 0;
+    }
+  }
 }
 
 @media (max-width: 501px) {
@@ -602,7 +614,7 @@ body {
       }
 
       img {
-        width: 80%;
+        width: 100%;
       }
     }
   }
