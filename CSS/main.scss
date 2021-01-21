@@ -246,9 +246,12 @@ html{
   .learn-section,
   .explore-section {
     margin: 30px auto;
+    &:first-child{
+      margin-top: 0px
+    }
 
     .content {
-      h1 {
+      h2 {
         font-family: $mon;
         font-weight: 800;
         font-size: 54px;
@@ -292,6 +295,11 @@ html{
 
   .section-bottom img {
     width: 100%;
+  }
+
+  .trrigerAnimation{
+    width: 100%;
+    padding: 20px;
   }
 }
 
@@ -589,7 +597,7 @@ html{
       }
 
       .content {
-        h1 {
+        h2 {
           font-size: 42px;
           padding-bottom: 5px;
           width: 20%;
@@ -694,7 +702,7 @@ html{
     .watch-section,
     .learn-section {
       .content {
-        h1 {
+        h2 {
           font-size: 36px;
           width: 30%;
         }

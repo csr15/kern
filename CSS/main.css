@@ -237,9 +237,15 @@ html {
   margin: 30px auto;
 }
 
-.body__wrapper .watch-section .content h1,
-.body__wrapper .learn-section .content h1,
-.body__wrapper .explore-section .content h1 {
+.body__wrapper .watch-section:first-child,
+.body__wrapper .learn-section:first-child,
+.body__wrapper .explore-section:first-child {
+  margin-top: 0px;
+}
+
+.body__wrapper .watch-section .content h2,
+.body__wrapper .learn-section .content h2,
+.body__wrapper .explore-section .content h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 54px;
@@ -297,6 +303,11 @@ html {
 
 .body__wrapper .section-bottom img {
   width: 100%;
+}
+
+.body__wrapper .trrigerAnimation {
+  width: 100%;
+  padding: 20px;
 }
 
 .sticky-contact {
@@ -582,9 +593,9 @@ html {
   .body__wrapper .watch-section:first-child {
     margin-top: 30px;
   }
-  .body__wrapper .explore-section .content h1,
-  .body__wrapper .learn-section .content h1,
-  .body__wrapper .watch-section .content h1 {
+  .body__wrapper .explore-section .content h2,
+  .body__wrapper .learn-section .content h2,
+  .body__wrapper .watch-section .content h2 {
     font-size: 42px;
     padding-bottom: 5px;
     width: 20%;
@@ -674,9 +685,9 @@ html {
   .body__wrapper .watch .video-section {
     margin: 10px auto;
   }
-  .body__wrapper .explore-section .content h1,
-  .body__wrapper .watch-section .content h1,
-  .body__wrapper .learn-section .content h1 {
+  .body__wrapper .explore-section .content h2,
+  .body__wrapper .watch-section .content h2,
+  .body__wrapper .learn-section .content h2 {
     font-size: 36px;
     width: 30%;
   }
