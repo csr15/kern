@@ -118,6 +118,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -100px;
+  overflow-x: hidden;
 }
 
 .body__wrapper .header {
@@ -198,7 +199,7 @@ html {
   padding: 50px 0;
 }
 
-.body__wrapper .watch h1 {
+.body__wrapper .watch h2 {
   color: #ffffff;
   text-transform: uppercase;
   font-size: 56px;
@@ -538,7 +539,7 @@ html {
   .body__wrapper .watch {
     padding: 30px 0;
   }
-  .body__wrapper .watch h1 {
+  .body__wrapper .watch h2 {
     font-size: 40px;
   }
   .body__wrapper .watch .video-section {
@@ -679,7 +680,7 @@ html {
   .body__wrapper .watch {
     padding: 20px 0;
   }
-  .body__wrapper .watch h1 {
+  .body__wrapper .watch h2 {
     font-size: 35px;
   }
   .body__wrapper .watch .video-section {
@@ -730,7 +731,7 @@ html {
   .body__wrapper .watch {
     padding: 15px 0;
   }
-  .body__wrapper .watch h1 {
+  .body__wrapper .watch h2 {
     font-size: 32px;
   }
   .body__wrapper .explore-section,
