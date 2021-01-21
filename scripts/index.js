@@ -36,7 +36,7 @@ if (window.screen.width <= 768) {
   const t1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".webAnimator",
-      start: "center",
+      start: "top",
     },
   });
   t1.from("#watch-img", { delay: 0, x: 300, opacity: 0 }, "-=0.7");
