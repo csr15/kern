@@ -12,6 +12,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   position: relative;
   background: transparent;
@@ -117,7 +121,7 @@ body {
 }
 
 .body__wrapper .header {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.6))), url("../assets/header-background.png");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.6))), url("../assets/png/header-background.png");
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("../assets/png/header-background.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -238,7 +242,7 @@ body {
 .body__wrapper .explore-section .content h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: 64px;
+  font-size: 54px;
   text-transform: uppercase;
   margin: 10px 0;
   border-bottom-width: 10px;
@@ -581,8 +585,8 @@ body {
   .body__wrapper .explore-section .content h1,
   .body__wrapper .learn-section .content h1,
   .body__wrapper .watch-section .content h1 {
-    font-size: 50px;
-    padding-bottom: 7px;
+    font-size: 42px;
+    padding-bottom: 5px;
     width: 20%;
   }
   .body__wrapper .explore-section .content p,
@@ -673,7 +677,7 @@ body {
   .body__wrapper .explore-section .content h1,
   .body__wrapper .watch-section .content h1,
   .body__wrapper .learn-section .content h1 {
-    font-size: 45px;
+    font-size: 36px;
     width: 30%;
   }
 }

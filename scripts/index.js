@@ -7,31 +7,7 @@ const closeNavbar = () => {
   collapsedNavItems.style.top = "-200%";
 };
 
-//IMAGE ANIMATION USING GSAP
-
-const t1 = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".watch",
-    start: "center",
-  },
-});
-
-t1.from("#watch-img", { delay: 0.5, x: 300, opacity: 0 });
-
-const t2 = gsap.timeline({
-  scrollTrigger: {
-    trigger: "#watch-img",
-    start: "top",
-  },
-});
-
-t2.from("#learn-img", { delay: 0.5, x: -300, opacity: 0 });
-
-const t3 = gsap.timeline({
-  scrollTrigger: {
-    trigger: "#learn-img",
-    start: "center",
-  },
-});
-
-t3.from("#explore-img", { delay: 0.5, x: 300, opacity: 0 });
+// ANIMATION INITIALIZATION
+window.onload = () => {
+  new WOW().init();
+};
