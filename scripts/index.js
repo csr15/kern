@@ -35,8 +35,8 @@ if (window.screen.width <= 768) {
 } else {
   const t1 = gsap.timeline({
     scrollTrigger: {
-      trigger: ".watch-videos",
-      start: "bottom",
+      trigger: ".webAnimator",
+      start: "center",
     },
   });
   t1.from("#watch-img", { delay: 0, x: 300, opacity: 0 }, "-=0.7");
@@ -44,7 +44,7 @@ if (window.screen.width <= 768) {
   const t2 = gsap.timeline({
     scrollTrigger: {
       trigger: ".watch-section",
-      start: "center",
+      start: "top",
     },
   });
   t2.from("#learn-img", { delay: 0, x: -300, opacity: 0 }, "-=0.7");
@@ -52,7 +52,7 @@ if (window.screen.width <= 768) {
   const t3 = gsap.timeline({
     scrollTrigger: {
       trigger: ".learn-section",
-      start: "center",
+      start: "top",
     },
   });
   t3.from("#explore-img", { delay: 0, x: 300, opacity: 0 }, "-=0.7");
