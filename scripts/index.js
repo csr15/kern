@@ -17,7 +17,6 @@ const t1 = gsap.timeline({
 t1.from(
   "#watch-img",
   { opacity: 0, x: 300 },
-  "-=0.7"
 );
 
 const t2 = gsap.timeline({
@@ -29,7 +28,6 @@ const t2 = gsap.timeline({
 t2.from(
   "#learn-img",
   { opacity: 0, x: -300 },
-  "-=0.7"
 );
 
 const t3 = gsap.timeline({
@@ -41,5 +39,4 @@ const t3 = gsap.timeline({
 t3.from(
   "#explore-img",
   { opacity: 0, x: 300 },
-  "-=0.7"
 );
